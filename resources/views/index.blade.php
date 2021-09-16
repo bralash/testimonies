@@ -27,7 +27,7 @@
             <p>Share Your Testimonies with ❤️</p>
 
             <form action="">
-                <textarea name="" id="" cols="30" rows="30" placeholder="Type in your testimony"></textarea>
+                <textarea name="" id="" cols="30" rows="20" placeholder="Type in your testimony"></textarea>
                 <input type="submit" value="Submit">
             </form>
         </div>
