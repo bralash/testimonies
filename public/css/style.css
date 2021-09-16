@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    font-family: Poppins;
 }
 
 img {
@@ -15,9 +16,64 @@ section.wrapper {
 }
 
 section.wrapper header {
-    padding: 20px;
+    padding: 30px 20px 20px 30px;
+    background: #000;
+    box-sizing: border-box;
 }
 
 section.wrapper header .logo {
-    width: 50px;
+    width: 70px;
+}
+
+section.wrapper header nav ul {
+    padding: 0px;
+    margin-top: 20px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+
+}
+
+
+header nav ul li:last-of-type {
+    margin-right: 0px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    padding: 30px;
+    font-weight: 600;
+}
+
+.content p {
+    margin: 0px;
+}
+
+.content textarea {
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+    font-family: Poppins;
+    outline: none;
+    padding: 10px;
+    border: 1px solid #cecece;
+    border-radius: 4px;
+    margin: 20px 0px 10px 0px;
+}
+
+.content input[type=submit] {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-family: Poppins;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
 }

@@ -12,9 +12,25 @@
     <section class="wrapper">
         <header>
             <div class="logo">
-                <img src="{{ asset('assets/img/logo.png') }}" alt="">
+                <img src="{{ asset('assets/img/logo-alt.png') }}" alt="">
             </div>
+            <nav>
+                <ul>
+                    <li><a href="">TRUWord</a></li>
+                    <li><a href="">Give</a></li>
+                    <li><a href="">Be Inspired</a></li>
+                </ul>
+            </nav>
         </header>
+
+        <div class="content">
+            <p>Share Your Testimonies with ❤️</p>
+
+            <form action="">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Type in your testimony"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     </section>
 
 </body>
