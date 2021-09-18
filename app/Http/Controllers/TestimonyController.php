@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Testimony;
 use Illuminate\Http\Request;
 
+
 class TestimonyController extends Controller
 {
     /**
@@ -15,6 +16,17 @@ class TestimonyController extends Controller
     public function index()
     {
         return view('index');
+    }
+
+
+    public function testify(Request $request) {
+        $testimony = new Testimony;
+        $testimony->testimony = $request->testimony;
+        
+
+        $testimony->save();
+
+        // return View('thanks');
     }
 
 }

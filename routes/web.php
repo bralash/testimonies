@@ -14,3 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', ['uses' => 'App\Http\Controllers\TestimonyController@index']);
+
+Route::post('/testify',['uses' => 'App\Http\Controllers\TestimonyController@testify']);

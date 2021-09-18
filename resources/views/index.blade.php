@@ -26,8 +26,9 @@
         <div class="content">
             <p>Share Your Testimonies with ❤️</p>
 
-            <form action="">
-                <textarea name="" id="" cols="30" rows="20" placeholder="Type in your testimony"></textarea>
+            <form action="{{URL::to('/testify')}}" method="post">
+                {{ csrf_field() }}
+                <textarea name="testimony" id="" cols="30" rows="20" placeholder="Type in your testimony"></textarea>
                 <input type="submit" value="Submit">
             </form>
         </div>
