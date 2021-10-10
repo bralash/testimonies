@@ -38,6 +38,7 @@ header nav ul li {
 }
 
 
+
 header nav ul li:last-of-type {
     margin-right: 0px;
 }
@@ -77,4 +78,44 @@ header nav ul li a {
     font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.messages {
+    background-color: #000;
+    height: 300px;
+    /* color: #fff; */
+    padding: 5%;
+}
+
+.messages .message {
+    position: relative;
+    border: 1px solid #fff;
+    padding: 10px;
+    padding-bottom: 20px;
+    background: #fff;
+    border-radius: 5px;
+    font-family: Poppins;
+    margin-bottom: 20px;
+    font-size: 13px;
+    max-width: 500px;
+}
+
+.messages .message label {
+    position: absolute;
+    font-size: 10px;
+    bottom: 0px;
+    right: 6px;
+    color: #b3b3b3;
+}
+
+.messages .message label.brand {
+    left: 10px;
+}
+
+.messages .message label.brand i:first-child {
+    color: #fbad50;
+}
+
+.messages .message label.brand i:last-child {
+    color: #00acee;
 }

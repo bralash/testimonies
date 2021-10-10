@@ -16,9 +16,9 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="">TRUWord</a></li>
+                    <li><a href="{{URL::to('/')}}">TRUWord</a></li>
                     <li><a href="">Give</a></li>
-                    <li><a href="">Be Inspired</a></li>
+                    <li><a href="{{URL::to('/inspired')}}">Be Inspired</a></li>
                 </ul>
             </nav>
         </header>

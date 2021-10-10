@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Testimony;
 use Illuminate\Http\Request;
-
+use DB;
 
 class TestimonyController extends Controller
 {
@@ -27,6 +27,11 @@ class TestimonyController extends Controller
         $testimony->save();
 
         // return View('thanks');
+    }
+
+    public function inspired() {
+        $testimonies = DB::table('testimonies')->orderBy('created_at', 'desc')->get();
+        return View('inspired',compact('testimonies'));
     }
 
 }
