@@ -16,7 +16,7 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="{{URL::to('/')}}">TRUWord</a></li>
+                    <li><a href="https://blog.nsiah.org">TRUWord</a></li>
                     <li><a href="">Give</a></li>
                     <li><a href="{{URL::to('/inspired')}}">Be Inspired</a></li>
                 </ul>
