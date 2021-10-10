@@ -26,7 +26,7 @@ class TestimonyController extends Controller
 
         $testimony->save();
 
-        // return View('thanks');
+        return View('thanks');
     }
 
     public function inspired() {
